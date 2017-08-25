@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+       <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/sv" >
+
+            <LinearLayout                
+       			android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        		
+        		android:orientation="vertical"
+        		android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/txtSobre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textColor="@color/verdecifras"
+                    android:text="Sobre\n"/>
+                
+                
+                <TextView
+                    android:id="@+id/txtCifra"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity="fill"
+                    android:text="O Cifras Play é um aplicativo desenvolvido especialmente para músicos e instrumentistas que gostam de buscar cifras online e precisam de um lugar em seu celular para guardar suas cifras preferidas pensando em futuros ensaios. O app tem como principal objetivo aperfeiçoar o processo de leitura dos acordes de uma melodia e otimizar o ato da passagem dos mesmos através de uma rolagem automática.\n"/>
+
+                <TextView
+                    android:id="@+id/txtIntegrantes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:textColor="@color/verdecifras"
+                    android:text="Autores\n"/>
+                
+                 <TextView
+                    android:id="@+id/txtNomes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:text="Alexandre Pereira Do Vale"/>
+               <TextView
+                    android:id="@+id/txtNomes2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:text="Julianne De Lima Rocha"/>
+             <TextView
+                    android:id="@+id/txtNomes3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:text="Léa Susi Guanaes Gomes Ramos Costa"/>
+             <TextView
+                    android:id="@+id/txtNomes4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:text="Rodrigo Teixeira Costa"/>
+             <TextView
+                    android:id="@+id/txtNomes5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    android:text="Ursnihanna Pereira"/>
+              
+                
+    		</LinearLayout>
+        </ScrollView>     
+  </LinearLayout>

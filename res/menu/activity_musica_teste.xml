@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/maior_velocidade"
+        android:title="@string/maior_velocidade"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/menor_velocidade"
+        android:title="@string/menor_velocidade"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+    <item android:id="@+id/maior_fonte"
+        android:title="@string/maior_fonte"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/menor_fonte"        
+        android:icon="@drawable/ic_launcher"
+        android:title="@string/menor_fonte"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    
+</menu>

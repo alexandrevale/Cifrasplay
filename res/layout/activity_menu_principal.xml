@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnPesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:contentDescription="@string/pesquisar"
+        android:src="@drawable/pesquisar" />
+
+    <ImageButton
+        android:id="@+id/btnConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:contentDescription="@string/playlist"
+        android:src="@drawable/configuracao1" />
+
+    <ImageButton
+        android:id="@+id/btnTocar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/btnPesquisar"
+        android:layout_toRightOf="@+id/btnPesquisar"
+        android:contentDescription="@string/tocar"
+        android:src="@drawable/tocar" />
+
+    <ImageButton
+        android:id="@+id/btnAfinador"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/btnConfiguracao"
+        android:contentDescription="@string/afinador"
+        android:src="@drawable/afinador" />
+
+</RelativeLayout>
+
